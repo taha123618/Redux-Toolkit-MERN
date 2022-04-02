@@ -15,7 +15,7 @@ mongoose.connection.on("connect", () => {
 });
 
 mongoose.connection.on("error", (err) => {
-  console.log("Error Conntecting", err);
+  console.log("Error Connection", err);
 });
 
 export default conn;
